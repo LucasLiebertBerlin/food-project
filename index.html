@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Title -->
+  <title>Internationale Küche – Spezialitäten aus Asien | Sterling Force</title>
+
+  <!-- Meta Description (max. ~160 Zeichen) -->
+  <meta name="description" content="Erkunde asiatische Gerichte aus Japan, Thailand, China und Südkorea. Authentische Spezialitäten visuell ansprechend dargestellt." />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://www.sterlingforce.de/asiatische-kueche" />
+
+  <!-- Language and character settings -->
+  <meta http-equiv="Content-Language" content="de" />
+
+  <!-- Open Graph for social sharing -->
+  <meta property="og:title" content="Asiatische Küche entdecken | Sterling Force" />
+  <meta property="og:description" content="Entdecke leckere asiatische Gerichte aus Japan, China, Thailand und Südkorea in moderner Darstellung." />
+  <meta property="og:image" content="https://www.sterlingforce.de/assets/og-image.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.sterlingforce.de/asiatische-kueche" />
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Asiatische Küche entdecken | Sterling Force" />
+  <meta name="twitter:description" content="Spezialitäten aus Asien wie Sushi, Curry oder Kimchi auf einen Blick." />
+  <meta name="twitter:image" content="https://www.sterlingforce.de/assets/twitter-image.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts preload (Performance boost) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body class="font-[Inter] text-white bg-black m-0 relative overflow-hidden">
+
+  <!-- Skip to Content (Accessibility improvement) -->
+  <a href="#content" class="sr-only focus:not-sr-only absolute top-0 left-0 bg-white text-black px-4 py-2 z-50">
+    Zum Inhalt springen
+  </a>
+
+  <!-- Language Selector -->
+  <nav aria-label="Länderauswahl" class="absolute top-4 right-4 z-20">
+    <div class="relative inline-block">
+      <button id="dropdownButton" aria-haspopup="true" aria-expanded="false"
+        class="w-12 h-12 rounded-full overflow-hidden bg-transparent shadow hover:scale-105 transition focus:outline-none focus:ring-2 focus:ring-white">
+        <img
+          id="flagIcon"
+          src="https://hatscripts.github.io/circle-flags/flags/jp.svg"
+          alt="Japanische Flagge – Sprache wechseln"
+          class="w-full h-full object-cover rounded-full"
+        />
+      </button>
+      <div
+        id="dropdownMenu"
+        role="menu"
+        class="hidden absolute right-0 mt-2 bg-white text-black rounded shadow w-48 z-30 py-2"
+      >
+        <!-- JS dynamically injects country flags -->
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Visual Content -->
+  <main id="content" class="relative w-full h-screen" role="main" aria-label="Länderspezifische Inhalte">
+    <!-- JS will dynamically generate sections here -->
+  </main>
+
+  <!-- JS Script -->
+  <script src="script.js" defer></script>
+
+</body>
+</html>
